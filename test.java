@@ -30,6 +30,8 @@ public class test {
         keyboard.close();
         self npc2 = new self("Mia", 300, 40, 55);
         npc2.info();
+        self npc3 = new self("Food", 50, 2, 1);
+        npc3.info();
         // Im hungry...
     }
 }
