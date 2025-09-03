@@ -32,6 +32,8 @@ public class test {
         npc2.info();
         self npc3 = new self("Food", 50, 2, 1);
         npc3.info();
+        self npc4 = new self();
+        npc4.info();
         // Im hungry...
     }
 }
